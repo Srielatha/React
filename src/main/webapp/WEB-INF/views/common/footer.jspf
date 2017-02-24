@@ -1,0 +1,42 @@
+
+<script src="webjars/jquery/2.1.4/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="webjars/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="webjars/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+<script src="webjars/bootstrap-datepicker/1.0.1/js/bootstrap-datepicker.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.2.1/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/select/1.2.0/js/dataTables.select.min.js"></script>
+
+<script src="https://cdn.datatables.net/select/1.2.0/js/dataTables.select.min.js"></script>
+
+
+<!-- //code.jquery.com/jquery-1.12.3.js
+https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js
+https://cdn.datatables.net/buttons/1.2.1/js/dataTables.buttons.min.js
+https://cdn.datatables.net/select/1.2.0/js/dataTables.select.min.js
+../../extensions/Editor/js/dataTables.editor.min.js
+ -->
+
+<!-- <script src ="./sample.js"></script> -->
+ <script>
+   
+ $(function () {
+     $("#example").DataTable();
+     
+   /*   $('#example2').DataTable({
+       "paging": true,
+       "lengthChange": false,
+       "searching": false,
+       "ordering": true,
+       "info": true,
+       "autoWidth": false
+     }); */
+   });
+   // Activate an inline edit on click of a table cell
+   $('#example1').on( 'click', 'tbody td:not(:first-child)', function (e) {
+       editor.inline( this );
+   } );
+    </script>
+
+</body>
+</html>

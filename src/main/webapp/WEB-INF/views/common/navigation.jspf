@@ -1,0 +1,40 @@
+<!-- <nav role="navigation" class="navbar navbar-default"> -->
+<nav class = "navbar navbar-default navbar-inverse navbar-fixed-top">
+
+
+
+<div class="container-fluid">
+	<div class="navbar-header">
+		<button type = "button" class="navbar-toggle" data-target="#mainNavbar" data-toggle= "collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div  class="navbar-collapse collapse" id ="mainNavbar">
+		<ul class="nav navbar-nav">
+			<li class="active"> <a href = "/home"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+			<li><a href="/list-users">Student interface</a></li>
+			
+			<li> <a href = "#">About</a></li>
+			
+		</ul>
+		<form class="navbar-form navbar-left"  role="search">
+			<div class= "form-group">
+			<input type="text" class = "form-control" placeholder ="search" />
+			</div>
+			<button type="submit" class="btn btn-default"> Submit</button>
+		</form>	
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="/logout">Logout</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+				<li> <a href = "#">NextGear Capital</a></li>
+		</ul>
+		
+	</div>
+	
+	</div>
+	
+</nav>
